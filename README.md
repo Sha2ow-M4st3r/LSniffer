@@ -38,7 +38,7 @@ For more information: [Wikipedia](https://en.wikipedia.org/wiki/Packet_analyzer)
 ```markdown
 **Psniff only work on linux platform**
 
-- git clone https://github.com/Sha2ow-M4st3r/PSniffer.git
+- sudo git clone https://github.com/Sha2ow-M4st3r/PSniffer.git
 - cd PSniffer
 - sudo pip install requirements.txt
 ```
