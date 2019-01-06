@@ -6,15 +6,11 @@ import binascii
 import platform
 import struct
 import socket
-import time
 import sys
 import os
 
 from termcolor import colored
 from prettytable import PrettyTable
-
-# Global variables
-Time = time.asctime(time.localtime(time.time()))
 
 
 # First of all, we need to make sure that the PSniffer runs on the linux operating system
