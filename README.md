@@ -40,7 +40,7 @@ For more information: [Wikipedia](https://en.wikipedia.org/wiki/Packet_analyzer)
 
 - sudo git clone https://github.com/Sha2ow-M4st3r/PSniffer.git
 - cd PSniffer
-- sudo pip install requirements.txt
+- sudo pip install -r requirements.txt
 ```
 
 ## Usage
