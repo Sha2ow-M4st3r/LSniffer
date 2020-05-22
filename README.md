@@ -2,7 +2,7 @@
 
 ![Screenshot](http://s9.picofile.com/file/8348064526/it_sssup_rtn_sniffer154.png)
 
-PSniffer is a python script that allows you to sniffing all incoming and outgoing packets from the network. It can capture and decrypt packets for **Ethernet, ARP, IP, TCP, UDP, and ICMP** protocols.
+LSniffer is a C script that allows you to sniffing all incoming and outgoing packets from the network. It can capture and decrypt packets for **Ethernet, ARP, IP, TCP, UDP, and ICMP** protocols.
 
 
 
@@ -29,25 +29,24 @@ For more information: [Wikipedia](https://en.wikipedia.org/wiki/Packet_analyzer)
 
 ## Screenshots
 
-![Screenshot](http://s9.picofile.com/file/8348063184/Screenshot_1.png)
-![Screenshot](http://s8.picofile.com/file/8348063192/Screenshot_2.png)
+![Screenshot](http://s13.picofile.com/file/8397900668/Screenshot_at_2020_05_22_11_57_38.png)
 
 
 ## Installation
 
 ```markdown
-**Psniff only work on linux platform**
+**LSniff only work on linux platform**
 
-- sudo git clone https://github.com/Sha2ow-M4st3r/PSniffer.git
-- cd PSniffer
-- sudo pip install -r requirements.txt
+- sudo git clone https://github.com/Sha2ow-M4st3r/LSniffer.git
+- cd LSniffer
+- sudo gcc LSniffer.c -o LSniffer.out
 ```
 
 ## Usage
 
 ```markdown
 
-sudo python PSniffer.py
+sudo ./LSniffer.out
 ```
 
 **Never forget: You Can't Run From Your Shadow. But You Can Invite It To Dance**
