@@ -1,8 +1,8 @@
-# PSniffer
+# LSniffer
 
 ![Screenshot](http://s9.picofile.com/file/8348064526/it_sssup_rtn_sniffer154.png)
 
-LSniffer is a C script that allows you to sniffing all incoming and outgoing packets from the network. It can capture and decrypt packets for **Ethernet, ARP, IP, TCP, UDP, and ICMP** protocols.
+LSniffer is a C script that allows you to sniffing all incoming and outgoing packets from the network with low level socket. It can capture and decrypt packets for **Ethernet, ARP, IP, TCP, UDP, and ICMP** protocols.
 
 
 
